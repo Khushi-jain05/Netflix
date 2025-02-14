@@ -1,0 +1,125 @@
+#Logo{
+    width: 12%;
+    height: 12%;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+    width: 40%;
+    margin-left: 30%;
+ 
+    
+}
+h3,p{
+    color: white;
+    text-align: center;
+}
+p{
+    font-size: 17px;
+}
+input{
+    color: grey;
+    background-color:rgba(21, 19, 19, 0.648);
+    border: none;
+    width: 20%;
+    padding: 23px;
+    border-radius: 7px;
+    font-size: 17px;
+    width: 20%;
+
+
+}
+.email{
+justify-content: center;
+align-items: center;
+display: flex;
+gap: 10px;
+
+
+
+}
+.email button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 17px;
+    font-size: 24px;
+    border-radius: 7px;
+    width: 15%;
+    font-weight: bold;
+
+}
+
+
+body   {
+    background-color: black;
+    background-image: url(background.jpg);
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.628);
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 125px ;
+   
+
+}
+nav button{
+background-color: red;
+color: white;
+padding: 10px; 
+border: none;
+border-radius: 5px;
+font-size: 15px;
+
+}
+nav select{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(40, 37, 37);
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    margin-right: 10px;
+}
+nav div{
+    display: flex;
+}
+.container{
+    background-color: rgb(5, 6, 30);
+    color: white;
+   padding: 0;
+
+}
+.container h2{
+    padding: 0 125px;
+    font-weight: 500;
+}
+.options{
+    padding: 0 125px;
+    display: flex;
+    gap: 25px;
+}
+#where{
+    border: 1px solid gray;
+  background-color: rgba(28, 28, 45, 0.691) ;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+#what{
+    border: 1px solid gray;
+  background-color: rgba(28, 28, 45, 0.691) ;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
